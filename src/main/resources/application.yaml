@@ -4,7 +4,6 @@ spring:
     profiles:
       active: default
 server:
-  address: 0.0.0.0
   port: 9090
 
   management:
@@ -15,13 +14,4 @@ server:
     endpoint:
       health:
         show-details: "always"
-logging:
-  level:
-    root: INFO
-    com:
-      example:
-        authentication_service: DEBUG
 
-com:
-  example:
-    authentication_service:
